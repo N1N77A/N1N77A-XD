@@ -1,0 +1,43 @@
+import os, platform
+
+os.system('git pull')
+
+try:
+
+ 
+
+        import requests
+
+ 
+
+except:
+
+ 
+
+        os.system('pip2 install requests')
+
+ 
+
+ 
+
+ 
+
+import requests
+
+ 
+
+bit = platform.architecture()[0]
+
+ 
+
+if bit == "32bit":
+
+ 
+
+        from n1n7aa import reg
+
+ 
+
+ 
+
+        reg()

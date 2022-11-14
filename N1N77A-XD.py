@@ -16,7 +16,7 @@ bit = platform.architecture()[0]
 
 if bit == "64bit":
 
-        from nin import reg
+        from n1n7aa import reg
 
         reg()
 
@@ -24,7 +24,7 @@ if bit == "64bit":
 
 elif bit == "32bit":
 
-        from nin import reg
+        from n1n7aa import reg
 
 
         reg()

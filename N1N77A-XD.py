@@ -16,15 +16,15 @@ bit = platform.architecture()[0]
 
 if bit == "64bit":
 
-        from n1n7aa import reg
+        from n1n7aa import main
 
-        reg()
+        main()
 
 
 
 elif bit == "32bit":
 
-        from n1n7aa import reg
+        from bypass import main
 
 
-        reg()
+        main()

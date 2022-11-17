@@ -16,7 +16,7 @@ bit = platform.architecture()[0]
 
 if bit == "64bit":
 
-        from n1n7aa import main
+        from bypass import main
 
         main()
 
